@@ -1,0 +1,37 @@
+body, html {
+    height: 100%;
+}
+
+
+.bg {
+    background-image: url("../images/stage.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: #4748CE;
+    margin: 10px;
+    
+}
+
+#title {
+    background-color: transparent;
+    color: darkred;
+    text-align: center;
+    font-family: 'New Rocker', cursive;
+    font-size: 72px;
+}
+
+#champion {
+    display: none;
+    background-color: transparent;
+    
+}
+#fault {
+    display: none;
+    background-color: transparent;
+}
+
