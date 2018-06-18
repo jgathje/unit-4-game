@@ -21,7 +21,7 @@ body, html {
 }
 
 #title {
-    background-color: rgb(71, 72, 206, 0.3);
+    background-color: rgb(71, 72, 206, 0.6);
     border-radius: 500px 500px 500px 500px;
     color: black; 
     text-align: center;
@@ -40,31 +40,28 @@ body, html {
 
 
 #cher {
-    display: block; 
+    display: inline-block; 
     margin: auto;
-    float: left;
+    
     padding: 20px;
 }
 
 #cornell {
    
-    display: block; 
+    display: inline-block; 
     margin: auto;
-    float: left;
     padding: 20px;
 }
 
 #plant {
-    display: block; 
+    display: inline-block; 
     margin: auto;
     padding: 20px;
-    float: left;
 }
 
 #freddie {
-    display: block; 
+    display: inline-block; 
     margin: auto;
-    float: left;
     padding: 20px;    
 }
 
@@ -102,7 +99,7 @@ body, html {
 
 #instructions {
     
-    background-color: rgb(71, 72, 206, 0.3);
+    background-color: rgb(71, 72, 206, 0.25);
     border-radius: 150px 150px 150px 150px;
     font-size: 18px;
 }
