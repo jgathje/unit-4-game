@@ -35,3 +35,27 @@ body, html {
     background-color: transparent;
 }
 
+#images {
+    padding: 20px;
+      
+}
+
+#cher {
+    float: right;
+    padding-right: 60px;
+}
+
+#cornell {
+    float: right;
+    padding-right: 50px;
+}
+
+#plant {
+    float: left;
+    padding-left: 60px;
+}
+
+#freddie {
+    float: left;
+    padding-left: 50px;
+}
