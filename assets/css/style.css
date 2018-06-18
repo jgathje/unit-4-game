@@ -12,50 +12,101 @@ body, html {
 }
 
 .container{
-    background-color: #4748CE;
+    
     margin: 10px;
     
+    color: black; 
+    text-align: center;
+    font-family: 'New Rocker', cursive;
 }
 
 #title {
-    background-color: transparent;
-    color: darkred;
+    background-color: rgb(71, 72, 206, 0.3);
+    border-radius: 500px 500px 500px 500px;
+    color: black; 
     text-align: center;
     font-family: 'New Rocker', cursive;
     font-size: 72px;
-}
-
-#champion {
-    display: none;
-    background-color: transparent;
-    
-}
-#fault {
-    display: none;
-    background-color: transparent;
+    margin-top: 10px;
 }
 
 #images {
-    padding: 20px;
-      
+    background-color: transparent;
+    border-radius: 10px 10px 150px 150px;
+    padding-top: 20px;
+    
 }
 
+
+
 #cher {
-    float: right;
-    padding-right: 60px;
+    display: block; 
+    margin: auto;
+    float: left;
+    padding: 20px;
 }
 
 #cornell {
-    float: right;
-    padding-right: 50px;
+   
+    display: block; 
+    margin: auto;
+    float: left;
+    padding: 20px;
 }
 
 #plant {
+    display: block; 
+    margin: auto;
+    padding: 20px;
     float: left;
-    padding-left: 60px;
 }
 
 #freddie {
+    display: block; 
+    margin: auto;
     float: left;
-    padding-left: 50px;
+    padding: 20px;    
+}
+
+#smallbg-1 {
+    
+    background-color: transparent;
+    border-radius: 10px 150px 10px 150px;
+    padding-top: 20px;
+    font-size: 18px;
+    border-style: ridge;
+    border-color: black;
+    border-width: 2px;
+}
+
+#smallbg-2 {
+    
+    background-color: transparent;
+    border-radius: 150px 10px 150px 10px;
+    padding-top: 20px;
+    font-size: 18px;
+    border-style: ridge;
+    border-color: black;
+    border-width: 2px;
+}
+#nobg {
+    background-color: transparent;
+}
+
+#headbang {
+    width: 156px;
+    height: 170px;
+    display: block; 
+    margin: auto;
+}
+
+#instructions {
+    
+    background-color: rgb(71, 72, 206, 0.3);
+    border-radius: 150px 150px 150px 150px;
+    font-size: 18px;
+}
+
+#video {
+    background-color: transparent;
 }

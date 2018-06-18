@@ -19,42 +19,52 @@
 <body>
     <div class="bg">
         <div id="body">
-            <div class="container" id="title">
-            </div>
-            <div class="container" id="champion">
-                <iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/hSTivVclQQ0?start=42&end=55"
-                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-            <div class="container" id="fault">
-                <iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/9Sqiazeu7MI?start=83&end=97"
-                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
             <div class="container">
-                <p id="randomNum"></p>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10" id="title"></div>
+                </div>
             </div>
-            <div class="container">
-                <p id="wins"></p>
+            <div>
+                <div class="container" id="nobg">
+                    <div class="row">
+                        <div class="col-md-8" id="instructions">
+                        </div>
+                        <div class="col-md-4">
+                            <img id="headbang" src="assets/images/headbang.gif">
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <div class="container">
-                <div class="row" id="images">
-                    <div class="col-md-3">
-                        <img src="assets/images/plant.jpg" id="plant">
+            <div class="container" id="nobg">
+                <div class="row">
+                    <div class="col-md-4" id="smallbg-1">
+                        <p id="score"></p>
+                        <p id="randomNum"></p>
                     </div>
-                    <div class="col-md-3">
-                        <img src="assets/images/freddie.jpg" id="freddie">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="assets/images/cornell.jpg" id="cornell">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="assets/images/cher.jpg" id="cher">
+                    <div class="col-md-4" id="video"></div>
+                    <div class="col-md-4" id="smallbg-2">
+                        <p id="wins"></p>
+                        <p id="losses"></p>
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <p id="score"></p>
+            <div class="container" id="images">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div>
+                        <img src="assets/images/plant.jpg" id="plant">
+                        <img src="assets/images/freddie.jpg" id="freddie">
+                        <img src="assets/images/cornell.jpg" id="cornell">
+                        <img src="assets/images/cher.jpg" id="cher">
+                    </div>
+
+                </div>
             </div>
         </div>
+
+    </div>
     </div>
 </body>
 
