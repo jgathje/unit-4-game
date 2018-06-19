@@ -214,8 +214,7 @@ body, html {
 
     #instructions {
     
-        
-        
+        border-radius: 25px 25px 150px 100px;        
         font-size: 12px;
     }
     #smallbg-1 {
