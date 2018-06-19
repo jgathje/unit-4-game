@@ -10,7 +10,7 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: -1;
+    
 }
 
 .container{
@@ -23,7 +23,7 @@ body, html {
 
 #title {
     background-color: rgb(71, 72, 206);
-    border-radius: 500px 500px 500px 500px;
+    border-radius: 150px 150px 150px 50px;
     color: black; 
     text-align: center;
     font-family: 'New Rocker', cursive;
@@ -100,7 +100,7 @@ body, html {
 #instructions {
     
     background-color: rgb(71, 72, 206);
-    border-radius: 150px 150px 150px 150px;
+    border-radius: 25px 25px 150px 150px;
     font-size: 18px;
 }
 
@@ -192,6 +192,42 @@ body, html {
         
         background-color: transparent;
         border-style: none;
+        padding-top: 20px;
+        font-size: 14px;
+        
+    }
+    
+}
+@media screen and (max-width:980px) {
+    
+    
+
+    
+    #title {
+         
+         font-size: 48px;
+       
+    }
+     #video {
+         visibility: hidden;
+     }
+
+    #instructions {
+    
+        
+        
+        font-size: 12px;
+    }
+    #smallbg-1 {
+    
+        border-radius: 10px 50px 10px 150px;
+        padding-top: 20px;
+        font-size: 14px;
+        
+    }
+    
+    #smallbg-2 {
+        border-radius: 10px 50px 10px 150px;
         padding-top: 20px;
         font-size: 14px;
         
