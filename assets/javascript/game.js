@@ -25,28 +25,24 @@ $(document).ready(function () {
 
     $("#plant").on("click",
         function () {
-            hide();
             score = score + plant;
             $("#score").text("Your score: " + score)
             click();
         });
     $("#freddie").on("click",
         function () {
-            hide();
             score = score + freddie;
             $("#score").text("Your score: " + score);
             click();
         });
     $("#cornell").on("click",
         function () {
-            hide();
             score = score + cornell;
             $("#score").text("Your score: " + score);
             click();
         });
     $("#cher").on("click",
         function () {
-            hide();
             score = score + cher;
             $("#score").text("Your score: " + score);
             click();
@@ -96,13 +92,7 @@ function click() {
     }
 }
 
-function hide() {
-    $("body").on("click",
-        function () {
-            document.getElementById("video").style.display = "hidden"
-        }
-    )
-}
+
 
 function instructions() {
     var txt1 = $("<p></p>").text("Each rock star has a random value 1-12 assigned to them.");

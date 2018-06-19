@@ -1,5 +1,6 @@
 body, html {
     height: 100%;
+    background-color: white;
 }
 
 
@@ -13,7 +14,6 @@ body, html {
 
 .container{
     
-    margin: 10px;
     
     color: black; 
     text-align: center;
@@ -32,7 +32,6 @@ body, html {
 
 #images {
     background-color: transparent;
-    border-radius: 10px 10px 150px 150px;
     padding-top: 20px;
     
 }
@@ -106,4 +105,50 @@ body, html {
 
 #video {
     background-color: transparent;
+}
+
+@media screen and (max-width:640px) {
+    
+    .bg {
+        background-image: none;
+        background-color: transparent;
+    }
+
+    .container {
+        background-color: transparent;
+    }
+    #title {
+        background-color: transparent;
+         color: black; 
+         font-size: 36px;
+       
+    }
+    #video {
+        display: none;
+    }
+
+    #instructions {
+    
+        background-color: transparent;
+        
+        font-size: 12px;
+    }
+    #smallbg-1 {
+    
+        background-color: transparent;
+        border-style: none;
+        padding-top: 20px;
+        font-size: 14px;
+        
+    }
+    
+    #smallbg-2 {
+        
+        background-color: transparent;
+        border-style: none;
+        padding-top: 20px;
+        font-size: 14px;
+        
+    }
+    
 }
