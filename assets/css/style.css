@@ -22,7 +22,7 @@ body, html {
 }
 
 #title {
-    background-color: rgb(71, 72, 206, 0.6);
+    background-color: rgb(71, 72, 206);
     border-radius: 500px 500px 500px 500px;
     color: black; 
     text-align: center;
@@ -99,7 +99,7 @@ body, html {
 
 #instructions {
     
-    background-color: rgb(71, 72, 206, 0.25);
+    background-color: rgb(71, 72, 206);
     border-radius: 150px 150px 150px 150px;
     font-size: 18px;
 }
