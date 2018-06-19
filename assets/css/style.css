@@ -152,3 +152,48 @@ body, html {
     }
     
 }
+@media screen and (max-width:768px) {
+    
+    .bg {
+        background-image: none;
+        background-color: transparent;
+    }
+
+    .container {
+        background-color: transparent;
+    }
+    #title {
+        background-color: transparent;
+         color: black; 
+         font-size: 36px;
+       
+    }
+    #video {
+        display: none;
+    }
+
+    #instructions {
+    
+        background-color: transparent;
+        
+        font-size: 12px;
+    }
+    #smallbg-1 {
+    
+        background-color: transparent;
+        border-style: none;
+        padding-top: 20px;
+        font-size: 14px;
+        
+    }
+    
+    #smallbg-2 {
+        
+        background-color: transparent;
+        border-style: none;
+        padding-top: 20px;
+        font-size: 14px;
+        
+    }
+    
+}

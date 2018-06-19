@@ -6,6 +6,7 @@
 * If the goal number is reached, you win. If you go over, you lose.
 * Keeps a running total of wins and losses
 * After a win or a loss, the game resets and the numbers all re-randomize.
+* Mobile responsive. 
 ## Why it's useful:
 * Because I want to pass this course
 ## How to get started:
