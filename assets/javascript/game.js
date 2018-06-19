@@ -14,10 +14,10 @@ console.log(randomNum);
 
 $(document).ready(function () {
 
-    $("#randomNum").text("The Computer Number Is: " + randomNum);
-    $("#wins").text("Wins: " + wins);
-    $("#losses").text("Losses: " + lose);
-    $("#score").text("Your Score: " + score);
+    $("#randomNum").text("Number Of Tickets Available: " + randomNum);
+    $("#wins").text("Concerts Entered: " + wins);
+    $("#losses").text("Concerts Missed: " + lose);
+    $("#score").text("Tickets Purchased: " + score);
     $("#title").text("ROCK STAR ROULETTE!");
     $("#video").html('<iframe style="display: block; margin: auto;" width="280" height="157.5" src="https://www.youtube.com/embed/GMdvirU-RBk?&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>');
 
@@ -26,25 +26,25 @@ $(document).ready(function () {
     $("#plant").on("click",
         function () {
             score = score + plant;
-            $("#score").text("Your score: " + score)
+            $("#score").text("Tickets Purchased: " + score)
             click();
         });
     $("#freddie").on("click",
         function () {
             score = score + freddie;
-            $("#score").text("Your score: " + score);
+            $("#score").text("Tickets Purchased: " + score);
             click();
         });
     $("#cornell").on("click",
         function () {
             score = score + cornell;
-            $("#score").text("Your score: " + score);
+            $("#score").text("Tickets Purchased: " + score);
             click();
         });
     $("#cher").on("click",
         function () {
             score = score + cher;
-            $("#score").text("Your score: " + score);
+            $("#score").text("Tickets Purchased: " + score);
             click();
         });
 
@@ -58,15 +58,15 @@ function click() {
 
         )
         wins++;
-        $("#wins").text("Wins: " + wins);
+        $("#wins").text("Concerts Entered: " + wins);
         plant = Math.floor(Math.random() * 12) + 1;
         freddie = Math.floor(Math.random() * 12) + 1;
         cornell = Math.floor(Math.random() * 12) + 1;
         cher = Math.floor(Math.random() * 12) + 1;
         randomNum = Math.floor(Math.random() * 101) + 19;
         score = 0;
-        $("#score").text("Your Score: " + score);
-        $("#randomNum").text("The Computer Number Is: " + randomNum);
+        $("#score").text("Tickets Purchased: " + score);
+        $("#randomNum").text("Number Of Tickets Available: " + randomNum);
 
     }
 
@@ -76,26 +76,27 @@ function click() {
 
         )
         lose++;
-        $("losses").text("Loses: " + lose);
+        console.log(lose);
+        $("#losses").text("Concerts Missed: " + lose);
         plant = Math.floor(Math.random() * 12) + 1;
         freddie = Math.floor(Math.random() * 12) + 1;
         cornell = Math.floor(Math.random() * 12) + 1;
         cher = Math.floor(Math.random() * 12) + 1;
         randomNum = Math.floor(Math.random() * 101) + 19;
         score = 0;
-        $("#score").text("Your Score: " + score);
-        $("#randomNum").text("The Computer Number Is: " + randomNum);
+        $("#score").text("Tickets Purchased: " + score);
+        $("#randomNum").text("Number Of Tickets Available: " + randomNum);
     }
 }
 
 
 
 function instructions() {
-    var txt1 = $("<p></p>").text("Each rock star has a random value 1-12 assigned to them.");
-    var txt2 = $("<p></p>").text("Click the rock star and see how many points it adds to your score.");
-    var txt3 = $("<p></p>").text("Keep clicking until your score equals the computer number.");
-    var txt4 = $("<p></p>").text("If you match the computer score, you win!");
-    var txt5 = $("<p></p>").text("Go over the number, you lose!")
+    var txt1 = $("<p></p>").text("Each rock star has a random number of tickets from 1-12 assigned to them.");
+    var txt2 = $("<p></p>").text("Click the rock star and see how many tickets it adds to the tickets purchased.");
+    var txt3 = $("<p></p>").text("Keep clicking until the tickets available equals the tickets purchased.");
+    var txt4 = $("<p></p>").text("If you match the the tickets purchased to tickets available, you're in!");
+    var txt5 = $("<p></p>").text("Go over the available tickets, you're out!")
 
     $("#instructions").append(txt1, txt2, txt3, txt4);
 }
