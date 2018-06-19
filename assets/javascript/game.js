@@ -55,9 +55,7 @@ function click() {
         alert("You scored front row tickets! Get ready to rock! Press ok to see if you can do it again!");
 
         $("body").on("click",
-            function () {
-                document.getElementById("video").style.display = "block"
-            }
+
         )
         wins++;
         $("#wins").text("Wins: " + wins);
@@ -75,9 +73,7 @@ function click() {
     else if (score > randomNum) {
         alert("The show sold out before you got tickets! Click ok to try again!");
         $("body").on("click",
-            function () {
-                document.getElementById("video").style.display = "block"
-            }
+
         )
         lose++;
         $("losses").text("Loses: " + lose);
